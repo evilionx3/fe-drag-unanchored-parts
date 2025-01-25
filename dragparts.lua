@@ -1,4 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/evilionx3/kawaii-magnet-part-claim-edition/refs/heads/main/discord-popup-without-webhook-cause-fuck-webhooks-i-hate-that-shit"))() -- discord invite
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evilionx3/new-scripts/refs/heads/main/partclaim.lua"))() -- if you remove this it becomes less strong
 local function addDragDetectorToPart(part)
     if part:IsA("BasePart") and not part.Anchored then
         if not part:FindFirstChildOfClass("DragDetector") then
